@@ -1,0 +1,15 @@
+D:\_stuff\Programming\PT\pt-server\bin\Debug\net9.0\pt-server.exe
+D:\_stuff\Programming\PT\pt-server\bin\Debug\net9.0\pt-server.deps.json
+D:\_stuff\Programming\PT\pt-server\bin\Debug\net9.0\pt-server.runtimeconfig.json
+D:\_stuff\Programming\PT\pt-server\bin\Debug\net9.0\pt-server.dll
+D:\_stuff\Programming\PT\pt-server\bin\Debug\net9.0\pt-server.pdb
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.GeneratedMSBuildEditorConfig.editorconfig
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.AssemblyInfoInputs.cache
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.AssemblyInfo.cs
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.csproj.CoreCompileInputs.cache
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.sourcelink.json
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.dll
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\refint\pt-server.dll
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.pdb
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\pt-server.genruntimeconfig.cache
+D:\_stuff\Programming\PT\pt-server\obj\Debug\net9.0\ref\pt-server.dll
