@@ -8,11 +8,16 @@ class Request{
         PUT,
         DELETE
     }
+    public Method GetMethod(){
+        return method;
+    }
     private string path = "";
     private string pathHttp = "";
     private Dictionary<string,string> headers = new Dictionary<string, string>();
     private Method method;
     public Request(string request){
+        if(String.IsNullOrEmpty(request))
+            return;
         string[] parts = request.Split("\r\n");
         ParseRequest(parts);
     }
@@ -43,7 +48,6 @@ class Request{
         {
             if(String.IsNullOrEmpty(request[i]))
                 break;
-            System.Console.WriteLine(request[i] + " i: "+ i);
             var line = request[i].Split(": ");
             headers.Add(line[0],line[1]);
         }

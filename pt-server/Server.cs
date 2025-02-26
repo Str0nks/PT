@@ -8,18 +8,12 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            TcpListener tcpListener = new TcpListener(IPAddress.Parse("127.0.0.1"),8008);
-            tcpListener.Start();
-            TcpClient tcpClient = new TcpClient();
+            HTTPServer server = new HTTPServer(8008);
+            server.Start();
             byte[] buffer = new byte[0];
-            while(true){
-                buffer = new byte[1024];
-                tcpClient = tcpListener.AcceptTcpClient();
-                var cStream = tcpClient.GetStream();
-                cStream.Read(buffer);
-                Request request = new Request(System.Text.Encoding.Default.GetString(buffer));
-                System.Console.WriteLine(request);
-            }
+            
+            buffer = new byte[1024];
+            
         }
     }
 }
